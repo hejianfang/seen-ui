@@ -5,6 +5,7 @@ export default defineConfig({
   base: './',
   build: {
     lib: {
+      // src/main.ts为临时入口
       entry: path.resolve(__dirname, 'src/main.ts'),
       name: 'MyLib'
     },
