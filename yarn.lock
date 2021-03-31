@@ -78,6 +78,11 @@
   resolved "https://registry.npm.taobao.org/@types/json-schema/download/@types/json-schema-7.0.7.tgz?cache=0&sync_timestamp=1613378919536&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
   integrity sha1-mKmTUWyFnrDVxMjwmDF6nqaNua0=
 
+"@types/node@^14.14.37":
+  version "14.14.37"
+  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
+  integrity sha1-o92NpOuEqZbDbjMd+Y2Cq9drUW4=
+
 "@typescript-eslint/eslint-plugin@^4.20.0":
   version "4.20.0"
   resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.20.0.tgz?cache=0&sync_timestamp=1617053497049&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-4.20.0.tgz#9d8794bd99aad9153092ad13c96164e3082e9a92"
@@ -1526,7 +1531,7 @@ uniq@^1.0.1:
   resolved "https://registry.npm.taobao.org/uniq/download/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
   integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
 
-unzipper@latest:
+unzipper@0.10.11:
   version "0.10.11"
   resolved "https://registry.npm.taobao.org/unzipper/download/unzipper-0.10.11.tgz?cache=0&sync_timestamp=1587388007524&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Funzipper%2Fdownload%2Funzipper-0.10.11.tgz#0b4991446472cbdb92ee7403909f26c2419c782e"
   integrity sha1-C0mRRGRyy9uS7nQDkJ8mwkGceC4=
@@ -1583,12 +1588,12 @@ vue-eslint-parser@^7.6.0:
     esquery "^1.4.0"
     lodash "^4.17.15"
 
-vue-tsc@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.npm.taobao.org/vue-tsc/download/vue-tsc-0.0.8.tgz#2b2912d0c11e0d7bfd8d4ea89883c5acd722ac39"
-  integrity sha1-KykS0MEeDXv9jU6omIPFrNcirDk=
+vue-tsc@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.npm.taobao.org/vue-tsc/download/vue-tsc-0.0.17.tgz#b2bc96097d32138f3b7538229eeb32d19455d4a1"
+  integrity sha1-sryWCX0yE487dTginusy0ZRV1KE=
   dependencies:
-    unzipper latest
+    unzipper "0.10.11"
 
 vue@^3.0.5:
   version "3.0.10"
